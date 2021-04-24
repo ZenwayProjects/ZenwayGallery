@@ -11,7 +11,7 @@ application.use(express.static('public'));
 
 
 router.get('/', (request, response) => {
-    response.sendFile(path.join(__dirname, '/public/menu.html'))
+    response.sendFile(path.join(__dirname, '/public/home.html'))
     
 })
 

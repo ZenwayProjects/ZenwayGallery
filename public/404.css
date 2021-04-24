@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Mali', cursive;
+}
+
+.error404{
+    display: flex;
+    background: linear-gradient(  #1c2b2d, #1b1a17);
+    justify-content: center;
+    position: relative;
+    padding-right: 2rem;
+    overflow: visible;
+    height: 71vh;
+}
+
+.error404__container {
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.error404__container h1 {
+    margin: 0;
+    padding: 80px;
+    position: relative;
+    align-self: center;
+    line-height: 4.5rem;
+    font-size: 90px;
+    color: white;
+}
+
+.error404__container h1 span {
+    transform: rotate(180deg);
+    display: inline-block;
+    transform-origin: center bottom;
+    
+}
+
+.error404__container p {
+    color: white;
+}
+
+
+
