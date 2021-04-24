@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Mali', cursive;
+}
+
+.login{
+    background: linear-gradient(  #1c2b2d, #1b1a17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.login__container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 2px white;
+    border-radius: 40px;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 8px 0 0 #1f2020 ;
+}
+
+.login__container h2 {
+    align-self: center;
+}
+
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container--form label{
+    font-size: 14px;
+}
+
+.login__container--remember-me{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login__container--remember-me a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login__container--remember-me a:hover{
+    text-decoration: underline;
+}
+
+.login__container--social-media > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login__container--social-media > div > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.login__container--register{
+    font-size: 14px;
+}
+
+.login__container--register a{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login__container--register a:hover{
+    text-decoration: underline;
+}
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #ffff;
+    font-size: 16px;
+    font-family: 'Mali', sans-serif;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    outline: none;
+    height: 50px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mali', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}

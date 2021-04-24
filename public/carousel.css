@@ -1,6 +1,46 @@
+body, h1{
+    margin: 0;
+    background: linear-gradient(  #1c2b2d, #1b1a17);
+    font-family: 'Mali', cursive;
+}
+.main{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__title{
+    color: white;
+    font-size: 25px;
+}
+
+.categories__title{
+    color: #ffff;
+    font-size: 16px;
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.input{
+
+    font-family: 'Mali', cursive;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    width: 70%;
+    outline: none;
+    color: white;
+}::placeholder{
+    color: white;
+}
+
 .carousel{
     width: 100%;
-    overflow: scroll;
     padding: 30px;
     position: relative;
 }
