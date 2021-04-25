@@ -35,8 +35,10 @@ body, h1{
     width: 70%;
     outline: none;
     color: white;
-}::placeholder{
-    color: white;
+
+    &::placeholder{
+        color: white;
+    }
 }
 
 .carousel{
@@ -63,19 +65,21 @@ body, h1{
     transition: 400ms all;
     transform-origin: center left;
     position: relative;
-}
-/* Para que el ultimo no se salga*/
-.carousel-item:nth-child(4){
-    transform-origin: center right;
+
+    &:hover ~ .carousel-item{
+        transform: translate3d(100px, 0, 0);
+    }
+
+    /* Para que el ultimo no se salga*/
+    &:nth-child(4){
+        transform-origin: center right;
+    }
+
+    &:nth-child(4) ~ .carousel-item{ 
+        transform: translate3d(0, 0, 0, 100px);
+    }
 }
 
-.carousel-item:hover ~ .carousel-item{
-    transform: translate3d(100px, 0, 0);
-}
-/* Para que el ultimo no se salga*/
-.carousel-item:nth-child(4) ~ .carousel-item{ 
-    transform: translate3d(0, 0, 0, 100px);
-}
 
 .carousel__container:hover .carousel-item {
     opacity: 0.3;
@@ -107,18 +111,22 @@ body, h1{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-}
 
-.carousel-item__details img{
-    height: 25px;
-}
-.carousel-item__details p{
-        margin: 0px;
+    img{
+        height: 25px;
     }
 
-.carousel-item__details:hover {
-    opacity: 1;
-    color: white;
-
-
+    p{
+        margin: 0px;
+    }
+    
+    &:hover {
+        opacity: 1;
+        color: white;
+    
+    
+    }
 }
+
+
+

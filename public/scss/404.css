@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Mali', cursive;
+}
+
+.error404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1c2b2d), to(#1b1a17));
+  background: linear-gradient(#1c2b2d, #1b1a17);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  padding-right: 2rem;
+  overflow: visible;
+  height: 71vh;
+}
+
+.error404__container {
+  max-width: 600px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.error404__container h1 {
+  margin: 0;
+  padding: 80px;
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 4.5rem;
+  font-size: 90px;
+  color: white;
+}
+
+.error404__container h1 span {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: inline-block;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+
+.error404__container p {
+  color: white;
+}
+/*# sourceMappingURL=404.css.map */

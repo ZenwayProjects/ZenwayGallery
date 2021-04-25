@@ -4,19 +4,20 @@
     align-items: center;
     height: 102px;
     width: 100%;
+    a {
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        padding-left: 30px;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    
 }
 
-.footer a {
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    padding-left: 30px;
-    text-decoration: none;
-}
-
-.footer a:hover{
-    text-decoration: underline;
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -31,9 +32,11 @@
     .footer{
         align-items: flex-start;
         flex-direction: column;
+
+        a {
+            padding-bottom: 5px;
+        }
     }
 
-    .footer a {
-        padding-bottom: 5px;
-    }
+    
 }
