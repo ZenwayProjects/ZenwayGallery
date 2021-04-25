@@ -31,7 +31,7 @@
   margin: 0px 0px 0 -14px;
 }
 
-.header__menu:hover ul, ul:hover {
+.header__menu:hover ul, .header__menu ul:hover {
   display: block;
 }
 
