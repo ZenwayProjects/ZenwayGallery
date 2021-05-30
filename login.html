@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./scss/login.css">
-    <link rel="stylesheet" href="./scss/menu.css">
-    <link rel="stylesheet" href="./scss/footer.css">
-    <link rel="icon" href="http://192.168.1.6:3400/castle-icon1.png" type="image/icon type">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mali&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/login.css" />
+    <link rel="stylesheet" href="./scss/menu.css" />
+    <link rel="stylesheet" href="./scss/footer.css" />
+    <link rel="icon" href="./img/castle-icon1.png" type="image/icon type" />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <img class="header__logo" src="http://192.168.1.6:3400/images_menu/zenway-gallery.png" alt="platzi-video-logo">
-        <div class="header__menu">
-            <div class="header__menu--profile">
-                <img src="http://192.168.1.6:3400/images_menu/profile1.png" alt="User">
-                <p>Perfil</p>
-            </div>
-            <ul>
-                <li><a href="">Cuenta</a></li>
-                <li><a href="">Cerrar Sesion</a></li>
-            </ul>
+      <img
+        class="header__logo"
+        src="./img/zenway-gallery.png"
+        alt="platzi-video-logo"
+      />
+      <div class="header__menu">
+        <div class="header__menu--profile">
+          <img src="./img/profile1.png" alt="User" />
+          <p>Perfil</p>
         </div>
+        <ul>
+          <li><a href="">Cuenta</a></li>
+          <li><a href="">Cerrar Sesion</a></li>
+        </ul>
+      </div>
     </header>
 
     <section class="login">
-        <section class="login__container">
-            <h2>Inicia Sesion</h2>
-            <form class="login__container--form" action="">
-                <input class="input" type="text" placeholder="Correo">
-                <input class="input" type="text" placeholder="Contraseña">
-                <button class="button">Iniciar Sesion</button>
-                <div class="login__container--remember-me">
-                    <label >
-                        <input type="checkbox">Recuérdame
-                    </label>
-                    <a href="/">Olvidé mi contraseña</a>
-                </div>
-            </form>
-            <section class="login__container--social-media">
-                <div><img src="./icons/google-icon.png" alt="Google">Inicia sesion con Google</div>
-                <div><img src="./icons/twitter-icon.png" alt="Twitter">Inicia sesion con Twitter</div>
-            </section>
-
-            <p class="login__container--register">¿No tienes una cuenta? <a href="/">Regístrate</a></p>
+      <section class="login__container">
+        <h2>Inicia Sesion</h2>
+        <form class="login__container--form" action="">
+          <input class="input" type="text" placeholder="Correo" />
+          <input class="input" type="text" placeholder="Contraseña" />
+          <button class="button">Iniciar Sesion</button>
+          <div class="login__container--remember-me">
+            <label> <input type="checkbox" />Recuérdame </label>
+            <a href="/">Olvidé mi contraseña</a>
+          </div>
+        </form>
+        <section class="login__container--social-media">
+          <div>
+            <img src="./img/google-icon.png" alt="Google" />Inicia sesion con
+            Google
+          </div>
+          <div>
+            <img src="./img/twitter-icon.png" alt="Twitter" />Inicia sesion con
+            Twitter
+          </div>
         </section>
-    </section>
 
-    
-</body>
+        <p class="login__container--register">
+          ¿No tienes una cuenta? <a href="/">Regístrate</a>
+        </p>
+      </section>
+    </section>
+  </body>
 </html>
